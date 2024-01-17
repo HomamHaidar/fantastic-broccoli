@@ -18,6 +18,11 @@ A comprehensive school management system that allows you to control the academic
 
 ![480c615c-384d-487a-9c54-cbd80d61cb23](https://github.com/HomamHaidar/school_management/assets/147708704/07597187-6464-4d49-9fe3-5a35d5d6b7a8)
 
+![74b18f75-e86d-4fbc-a20e-fafce41513d5](https://github.com/HomamHaidar/school_management/assets/147708704/715fb88a-c0d9-46b9-8c8b-f94816cd1595)
+
+![4b536ae5-175e-4261-a9b0-bc9e1cbe05e2](https://github.com/HomamHaidar/school_management/assets/147708704/acde5b65-143a-424f-a967-1bdd117bae5c)
+
+
 ## Features
 - EN/AR 🌐
 - Fullscreen mode 🖥
