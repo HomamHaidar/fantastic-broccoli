@@ -3,15 +3,7 @@
 
 A comprehensive school management system that allows you to control the academic grades, classes, and sections, along with the ability to manage the students and teachers within them. The system will also have multiple levels of permissions for the accounts of parents, students, and teachers, in addition to managing the school's financial matters.
 
-![image_2023-10-27_07-55-36](https://github.com/HomamHaidar/school_management/assets/147708704/345b2ff6-9a7b-4548-bcfd-36bec03d7e7e)
-![image_2023-10-27_07-57-17](https://github.com/HomamHaidar/school_management/assets/147708704/6274ffad-d911-4b0a-8d7c-de96089306f4)
-![image_2023-10-27_07-57-40](https://github.com/HomamHaidar/school_management/assets/147708704/9b00fabb-3935-4d49-bbd5-2bba123d1c65)
-![image_2023-10-27_08-03-32](https://github.com/HomamHaidar/school_management/assets/147708704/6fc1a819-268b-4393-ae14-d49a0de62291)
-![image_2023-10-27_08-03-41](https://github.com/HomamHaidar/school_management/assets/147708704/78608c8e-b811-4d90-8d89-f5d75318e9e5)
-![image_2023-10-27_08-03-47](https://github.com/HomamHaidar/school_management/assets/147708704/176454ff-d287-4bd6-8700-6c2ad2ee6497)
-![image_2023-10-27_08-03-54](https://github.com/HomamHaidar/school_management/assets/147708704/480c615c-384d-487a-9c54-cbd80d61cb23)
-![image_2023-10-27_08-04-13](https://github.com/HomamHaidar/school_management/assets/147708704/74b18f75-e86d-4fbc-a20e-fafce41513d5)
-![image_2023-10-27_08-04-16](https://github.com/HomamHaidar/school_management/assets/147708704/4b536ae5-175e-4261-a9b0-bc9e1cbe05e2)
+![Uploading 345b2ff6-9a7b-4548-bcfd-36bec03d7e7e.png…]()
 
 
 ## Features
