@@ -1,66 +1,78 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# School Management System 🏫
 
-## About Laravel
+A comprehensive school management system that allows you to control the academic grades, classes, and sections, along with the ability to manage the students and teachers within them. The system will also have multiple levels of permissions for the accounts of parents, students, and teachers, in addition to managing the school's financial matters.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![image_2023-10-27_07-55-36](https://github.com/HomamHaidar/school_management/assets/147708704/345b2ff6-9a7b-4548-bcfd-36bec03d7e7e)
+![image_2023-10-27_07-57-17](https://github.com/HomamHaidar/school_management/assets/147708704/6274ffad-d911-4b0a-8d7c-de96089306f4)
+![image_2023-10-27_07-57-40](https://github.com/HomamHaidar/school_management/assets/147708704/9b00fabb-3935-4d49-bbd5-2bba123d1c65)
+![image_2023-10-27_08-03-32](https://github.com/HomamHaidar/school_management/assets/147708704/6fc1a819-268b-4393-ae14-d49a0de62291)
+![image_2023-10-27_08-03-41](https://github.com/HomamHaidar/school_management/assets/147708704/78608c8e-b811-4d90-8d89-f5d75318e9e5)
+![image_2023-10-27_08-03-47](https://github.com/HomamHaidar/school_management/assets/147708704/176454ff-d287-4bd6-8700-6c2ad2ee6497)
+![image_2023-10-27_08-03-54](https://github.com/HomamHaidar/school_management/assets/147708704/480c615c-384d-487a-9c54-cbd80d61cb23)
+![image_2023-10-27_08-04-13](https://github.com/HomamHaidar/school_management/assets/147708704/74b18f75-e86d-4fbc-a20e-fafce41513d5)
+![image_2023-10-27_08-04-16](https://github.com/HomamHaidar/school_management/assets/147708704/4b536ae5-175e-4261-a9b0-bc9e1cbe05e2)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Features
+- EN/AR 🌐
+- Fullscreen mode 🖥
+- Determine the number of academic stages in your school, in addition to the currently active classes 📖
+- You can track your students exam grades, attendance days, and send reports to their parents through their accounts on the system.👨‍👩‍👧‍👦
+- You can handle fee management, including receipt transactions, cash refunds, and all matters related to the school's treasury 💲
+- Your teachers can create automated test questions, and the results will be automatically generated and issued to the students immediately after the exam ends ⁉️ 💯
+- You can add the college's private library that contains all the books uploaded by you 📚
+## Installation
 
-## Learning Laravel
+> **Warning**
+> Make sure to follow the requirements first.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Here is how you can run the project locally:
+1. Clone this repo
+    ```sh
+    git clone git@github.com:HomamHaidar/school_management.git
+    ```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+1. Go into the project root directory
+    ```sh
+    cd  school_management
+    ```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Copy .env.example file to .env file
+    ```sh
+    cp .env.example .env
+    ```
+1. Create database `school` (you can change database name)
 
-## Laravel Sponsors
+1. Install PHP dependencies 
+    ```sh
+    composer install
+    ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. Generate key 
+    ```sh
+    php artisan key:generate
+    ```
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+1. Run migration
+    ```
+    php artisan migrate
+    ```
+    
+1. Run seeder
+    ```
+    php artisan db:seed
+    ```
+      this command will create  user (admin) and  configure the settings :
+     > email: homamhaidar18@gmail.com , password: 12345678
 
-## Contributing
+  
+1. Run server 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+   
+    ```sh
+    php artisan serve
+    ```  
+Visit localhost:8000 in your favorite browser.
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
